@@ -1,0 +1,1274 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+        integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+        crossorigin="anonymous" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+    <header class="bg-white">
+        <nav class="navbar navbar-expand-lg text-dark align-items-center">
+            <div class="container-fluid">
+                <div class="collapse navbar-collapse w-50" id="navbarSupportedContent">
+                    <ul class="navbar-nav text-dark">
+                        <img src="https://codescandy.com/geeks/assets/images/logo.svg" alt="">
+                        <li class="nav-item dropdown me-3">
+                            <a class="nav-link dropdown-toggle text-dark  ms-5" href="#" id="navbarDropdown"
+                                role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Browse
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="web.html">Web Development</a></li>
+                                <li><a class="dropdown-item" href="web.html">Design</a></li>
+                                <li><a href="web.html" class="dropdown-item">Mobile App</a></li>
+                                <li><a class="dropdown-item" href="web.html">IT Software</a></li>
+                                <li><a class="dropdown-item" href="web.html">Marketing</a></li>
+                                <li><a class="dropdown-item" href="web.html">Music</a></li>
+                                <li><a class="dropdown-item" href="web.html">Life Style</a></li>
+                                <li><a class="dropdown-item" href="web.html">Business</a></li>
+                                <li><a class="dropdown-item" href="web.html">Photography</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown me-3">
+                            <a class="nav-link dropdown-toggle text-dark " href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Paths
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item disabled" href="#">Path</a></li>
+                                <li><a class="dropdown-item" href="#">Browse Path</a></li>
+                                <li><a href="#" class="dropdown-item">Path Single</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown me-3">
+                            <a class="nav-link dropdown-toggle text-dark " href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Pages
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="about.html">Course Single</a></li>
+                                <li><a class="dropdown-item" href="#">Course Single v2</a></li>
+                                <li><a href="#" class="dropdown-item">Course Resume</a></li>
+                                <li><a href="#" class="dropdown-item">Course Category</a></li>
+                                <li><a href="checkout.html" class="dropdown-item">Course Checout</a></li>
+                                <li><a href="#" class="dropdown-item">Course List/Grid</a></li>
+                                <li><a href="#" class="dropdown-item">Add New Course</a></li>
+                                <hr>
+                                <li><a href="#" class="dropdown-item">Blog</a></li>
+                                <li><a href="#" class="dropdown-item">Help Center</a></li>
+                                <li><a href="#" class="dropdown-item">Error Page</a></li>
+                                <li><a href="#" class="dropdown-item">Pricing</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown me-3">
+                            <a class="nav-link dropdown-toggle text-dark " href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Accounts
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item disabled" href="#">Accounts</a></li>
+                                <li><a class="dropdown-item" href="#">Instructor</a></li>
+                                <li><a href="#" class="dropdown-item">Students</a></li>
+                                <li><a href="#" class="dropdown-item">Admin</a></li>
+                                <hr>
+                                <li><a href="form.html" class="dropdown-item">Sign In </a></li>
+                                <li><a href="form2.html" class="dropdown-item">Sign Up</a></li>
+                                <li><a href="password.html" class="dropdown-item">Forgot Password</a></li>
+                                <li><a href="profile.html" class="dropdown-item">Edit Profile</a></li>
+                                <li><a href="securty.html" class="dropdown-item">Security</a></li>
+                                <li><a href="sprofile.html" class="dropdown-item">Social Profiles</a></li>
+                                <li><a href="notificat.html" class="dropdown-item">Notifications</a></li>
+                                <li><a href="set.html" class="dropdown-item">Privacy Settings</a></li>
+                                <li><a href="delete.html" class="dropdown-item">Delete Profile</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item  me-3">
+                            <a class="nav-link text-dark" href="#">
+                                <i class="fas fa-ellipsis-h"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item me-3">
+                            <form>
+                                <button class="header-btn position-absolute bg-white pt-1 text-secondary rounded"><i
+                                        class="fas fa-search fs-6 fw-thin"></i></button>
+                                <input class="search text-secondary w-100 ps-5 border-secondary border-1 rounded"
+                                    type="search" placeholder="Search Courses">
+                            </form>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <ul class="navbar-nav">
+                        <li class="nav-item dropdown me-3">
+                            <div class="btn-group dropstart">
+                                <button type="button" class="btn btn-light rounded-pill dropdown-toggle"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    <i class="far fa-bell"></i>
+                                </button>
+                                <ul class="dropdown-list dropdown-menu m-0 p-0">
+                                    <li><a class="dropdown-item d-flex shadow justify-content-between"
+                                            href="#">Notifications <i class="fas fa-cog"></i></a></li>
+                                    <li class=" dropdown-item">
+                                        <a class="dropdown-item" href="#">
+                                            <div class="row">
+                                                <div class="col">
+                                                    <img src="https://codescandy.com/geeks/assets/images/avatar-1.jpg"
+                                                        alt="" class="dropdown-img avatar-md rounded-circle ">
+                                                    <div class="d-flex flex-column">
+                                                        <h5>Kristin Watson</h5>
+                                                        <p>Kristin Watson like your comment on course</p>
+                                                        <div>
+                                                            <i class="far fa-thumbs-up text-success"></i>
+                                                            <span class="text-secondary">2 hours ago, 2:19 PM</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <li class="nav-item me-3">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
+                    </button>
+                  </li>
+            </div>
+        </nav>
+    </header>
+    <section class="home page__home d-flex align-items-center justify-content-center">
+        <div class="container">
+            <div class="row w-60">
+                <h2 class="home-title text-white mb-4">Getting Started with JavaScript</h2>
+                <p class="home-text fs-4">JavaScript is the popular programming language which powers web pages and web
+                    applications. This course will get you started coding in JavaScript.</p>
+                <div class="d-flex flex-wrap mb-5 mt-4 lh-3">
+                    <span class="d-flex align-items-center me-4 mt-3 text-white">
+                        <i class="far fa-bookmark"></i> Bookmark
+                    </span>
+                    <span class="d-flex align-items-center me-4 mt-3 text-white">
+                        <i class="far fa-user"></i> 1200 Enrolled
+                    </span>
+                    <span class="d-flex align-items-center me-4 mt-3">
+                        <i class="fas fa-star text-warning fw-thin"></i>
+                        <i class="fas fa-star text-warning fw-thin"></i>
+                        <i class="fas fa-star text-warning fw-thin"></i>
+                        <i class="fas fa-star text-warning fw-thin"></i>
+                        <i class="fas fa-star text-warning fw-thin"></i> <span class="text-white">(140)</span>
+                    </span>
+                    <span class="d-flex align-items-center me-4 mt-3 text-white">
+                        <i class="fas fa-signal"></i> Intermediate
+                    </span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="row m-0 p-0">
+        <section class="contact col-8 col-xl-8 col-lg-10 col-sm-10 shadow ms-5">
+            <div class="container">
+                <div>
+                    <ul class="nav nav-tabs" id="myTab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home"
+                                type="button" role="tab" aria-controls="home" aria-selected="true">Contents</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile"
+                                type="button" role="tab" aria-controls="profile"
+                                aria-selected="false">Description</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact"
+                                type="button" role="tab" aria-controls="contact" aria-selected="false">Reviews</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="trans-tab" data-bs-toggle="tab" data-bs-target="#trans"
+                                type="button" role="tab" aria-controls="trans" aria-selected="false">Transcipt</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="faq-tab" data-bs-toggle="tab" data-bs-target="#faq"
+                                type="button" role="tab" aria-controls="faq" aria-selected="false">FAQ</button>
+                        </li>
+                    </ul>
+                    <div class="tab-content" id="myTabContent">
+                        <div class="tab-pane fade" id="faq" role="tabpanel" aria-labelledby="faq-tab">
+                            <div>
+                                <h3 class="p-2">Transcript from the "Introduction" Lesson</h3>
+                                <div>
+                                    <div class="d-flex">
+                                        <h5>Course Overview </h5>
+                                        <a class="ms-2" href="#"> [00:00:00]</a>
+                                    </div>
+                                    <p>My name is John Deo and I work as human duct tape at Gatsby, that means that I do
+                                        a
+                                        lot of different things. Everything from dev roll to writing content to writing
+                                        code. And I used to work as an architect at IBM. I live in Portland, Oregon.</p>
+                                </div>
+                                <div>
+                                    <div class="d-flex">
+                                        <h5>Introduction </h5>
+                                    </div>
+                                    <p>We'll dive into GraphQL, the fundamentals of GraphQL. We're only gonna use the
+                                        pieces
+                                        of it that we need to build in Gatsby. We're not gonna be doing a deep dive into
+                                        what GraphQL is or the language specifics. We're also gonna get into MDX. MDX is
+                                        a
+                                        way to write React components in your markdown.</p>
+                                </div>
+                                <div>
+                                    <div class="d-flex">
+                                        <h5>Why Take This Course? </h5>
+                                    </div>
+                                    <p>We'll dive into GraphQL, the fundamentals of GraphQL. We're only gonna use the
+                                        pieces
+                                        of it that we need to build in Gatsby. We're not gonna be doing a deep dive into
+                                        what GraphQL is or the language specifics. We're also gonna get into MDX. MDX is
+                                        a
+                                        way to write React components in your markdown.</p>
+                                </div>
+                                <div>
+                                    <div class="d-flex">
+                                        <h5>A Look at the Demo Application </h5>
+                                    </div>
+                                    <p class="mb-3">We'll dive into GraphQL, the fundamentals of GraphQL. We're only
+                                        gonna
+                                        use the pieces of it that we need to build in Gatsby. We're not gonna be doing a
+                                        deep dive into what GraphQL is or the language specifics. We're also gonna get
+                                        into
+                                        MDX. MDX is a way to write React components in your markdown.</p>
+                                    <p>We'll dive into GraphQL, the fundamentals of GraphQL. We're only gonna use the
+                                        pieces
+                                        of it that we need to build in Gatsby. We're not gonna be doing a deep dive into
+                                        what GraphQL is or the language specifics. We're also gonna get into MDX. MDX is
+                                        a
+                                        way to write React components in your markdown.</p>
+                                </div>
+                                <div>
+                                    <div class="d-flex">
+                                        <h5>Summary </h5>
+                                    </div>
+                                    <p>We'll dive into GraphQL, the fundamentals of GraphQL. We're only gonna use the
+                                        pieces
+                                        of it that we need to build in Gatsby. We're not gonna be doing a deep dive into
+                                        what GraphQL is or the language specifics. We're also gonna get into MDX. MDX is
+                                        a
+                                        way to write React components in your markdown.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="trans" role="tabpanel" aria-labelledby="trans-tab">
+                            <div>
+                                <h3 class="p-2">Transcript from the "Introduction" Lesson</h3>
+                                <div>
+                                    <div class="d-flex">
+                                        <h5>Course Overview </h5>
+                                    </div>
+                                    <p>My name is John Deo and I work as human duct tape at Gatsby, that means that I do
+                                        a
+                                        lot of different things. Everything from dev roll to writing content to writing
+                                        code. And I used to work as an architect at IBM. I live in Portland, Oregon.</p>
+                                </div>
+                                <div>
+                                    <div class="d-flex">
+                                        <h5>Introduction </h5>
+                                    </div>
+                                    <p>We'll dive into GraphQL, the fundamentals of GraphQL. We're only gonna use the
+                                        pieces
+                                        of it that we need to build in Gatsby. We're not gonna be doing a deep dive into
+                                        what GraphQL is or the language specifics. We're also gonna get into MDX. MDX is
+                                        a
+                                        way to write React components in your markdown.</p>
+                                </div>
+                                <div>
+                                    <div class="d-flex">
+                                        <h5>Why Take This Course? </h5>
+                                    </div>
+                                    <p>We'll dive into GraphQL, the fundamentals of GraphQL. We're only gonna use the
+                                        pieces
+                                        of it that we need to build in Gatsby. We're not gonna be doing a deep dive into
+                                        what GraphQL is or the language specifics. We're also gonna get into MDX. MDX is
+                                        a
+                                        way to write React components in your markdown.</p>
+                                </div>
+                                <div>
+                                    <div class="d-flex">
+                                        <h5>A Look at the Demo Application </h5>
+                                    </div>
+                                    <p class="mb-3">We'll dive into GraphQL, the fundamentals of GraphQL. We're only
+                                        gonna
+                                        use the pieces of it that we need to build in Gatsby. We're not gonna be doing a
+                                        deep dive into what GraphQL is or the language specifics. We're also gonna get
+                                        into
+                                        MDX. MDX is a way to write React components in your markdown.</p>
+                                    <p>We'll dive into GraphQL, the fundamentals of GraphQL. We're only gonna use the
+                                        pieces
+                                        of it that we need to build in Gatsby. We're not gonna be doing a deep dive into
+                                        what GraphQL is or the language specifics. We're also gonna get into MDX. MDX is
+                                        a
+                                        way to write React components in your markdown.</p>
+                                </div>
+                                <div>
+                                    <div class="d-flex">
+                                        <h5>Summary </h5>
+                                    </div>
+                                    <p>We'll dive into GraphQL, the fundamentals of GraphQL. We're only gonna use the
+                                        pieces
+                                        of it that we need to build in Gatsby. We're not gonna be doing a deep dive into
+                                        what GraphQL is or the language specifics. We're also gonna get into MDX. MDX is
+                                        a
+                                        way to write React components in your markdown.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+                            <h4 class="pt-2">How students rated this courses</h4>
+                            <div class="d-flex border-bottom p-3">
+                                <div>
+                                    <div class="mt-1 me-5">
+                                        <h1 class="contact-title fw-bold">4.5</h1>
+                                        <div>
+                                            <i class="fas fa-star text-warning"></i>
+                                            <i class="fas fa-star text-warning"></i>
+                                            <i class="fas fa-star text-warning"></i>
+                                            <i class="fas fa-star text-warning"></i>
+                                            <i class="fas fa-star text-warning"></i>
+                                        </div>
+                                        <p>(Based on 27 reviews)</p>
+                                    </div>
+                                </div>
+                                <div class="mt-4">
+                                    <div class="statistic  rounded-pill bg-light overflow-hidden mb-3">
+                                        <div class="statistic-item   pb-2 bg-warning">
+
+                                        </div>
+                                    </div>
+                                    <div class="statistic  rounded-pill bg-light overflow-hidden mb-3">
+                                        <div class="statistic-item statistic-item--w80 pb-2 bg-warning">
+
+                                        </div>
+                                    </div>
+                                    <div class="statistic  rounded-pill bg-light overflow-hidden mb-3">
+                                        <div class="statistic-item  statistic-item--w70  pb-2 bg-warning">
+
+                                        </div>
+                                    </div>
+                                    <div class="statistic  rounded-pill bg-light overflow-hidden mb-3">
+                                        <div class="statistic-item statistic-item--w60  pb-2 bg-warning">
+
+                                        </div>
+                                    </div>
+                                    <div class="statistic  rounded-pill bg-light overflow-hidden mb-3">
+                                        <div class="statistic-item  statistic-item--w50 pb-2 bg-warning">
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="ms-4 mt-2">
+                                    <div>
+                                        <i class="fas fa-star text-warning"></i>
+                                        <i class="fas fa-star text-warning"></i>
+                                        <i class="fas fa-star text-warning"></i>
+                                        <i class="fas fa-star text-warning"></i>
+                                        <i class="fas fa-star text-warning"></i>
+                                        53%
+                                    </div>
+                                    <div>
+                                        <i class="fas fa-star text-warning"></i>
+                                        <i class="fas fa-star text-warning"></i>
+                                        <i class="fas fa-star text-warning"></i>
+                                        <i class="fas fa-star text-warning"></i>
+                                        <i class="fas fa-star text-light"></i>
+                                        36%
+                                    </div>
+                                    <div>
+                                        <i class="fas fa-star text-warning"></i>
+                                        <i class="fas fa-star text-warning"></i>
+                                        <i class="fas fa-star text-warning"></i>
+                                        <i class="fas fa-star text-light"></i>
+                                        <i class="fas fa-star text-light"></i>
+                                        9%
+                                    </div>
+                                    <div>
+                                        <i class="fas fa-star text-warning"></i>
+                                        <i class="fas fa-star text-warning"></i>
+                                        <i class="fas fa-star text-light"></i>
+                                        <i class="fas fa-star text-light"></i>
+                                        <i class="fas fa-star text-light"></i>
+                                        3%
+                                    </div>
+                                    <div>
+                                        <i class="fas fa-star text-warning"></i>
+                                        <i class="fas fa-star text-light"></i>
+                                        <i class="fas fa-star text-light"></i>
+                                        <i class="fas fa-star text-light"></i>
+                                        <i class="fas fa-star text-light"></i>
+                                        2%
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="d-flex justify-content-between">
+                                    <h4>Reviews</h4>
+                                    <form class="d-flex align-items-center p-3">
+                                        <button
+                                            class="header-btn position-absolute bg-white pt-1 text-secondary rounded"><i
+                                                class="fas fa-search fs-6 fw-thin"></i></button>
+                                        <input
+                                            class="search text-secondary w-100 ps-5 border-secondary border-1 rounded"
+                                            type="search" placeholder="Search Courses">
+                                    </form>
+                                </div>
+                                <div class="border-bottom p-2">
+                                    <div class="d-flex align-items-center">
+                                        <img src="https://codescandy.com/geeks/assets/images/avatar-2.jpg"
+                                            class="dropdown-img rounded-circle avatar-xs" alt="">
+                                        <h5 class="m-0 me-2 ms-2">Max Hawkins </h5>
+                                        <p class="m-0"> 2 Days ago</p>
+                                    </div>
+                                    <div class="ms-5 d-block">
+                                        <i class="fas fa-star text-warning"></i>
+                                        <i class="fas fa-star text-warning"></i>
+                                        <i class="fas fa-star text-warning"></i>
+                                        <i class="fas fa-star text-warning"></i>
+                                        <i class="fas fa-star text-warning"></i>
+                                    </div>
+                                    <div class=" me-5 ms-5">
+                                        <p>Lectures were at a really good pace and I never felt lost. The instructor was
+                                            well informed and allowed me to learn and navigate Figma easily.</p>
+                                        <div class="d-flex align-items-center">
+                                            <p>Was this review helpful?</p>
+                                            <button class="btn-primary border-0 rounded me-3 ms-3">Yes</button>
+                                            <button class=" btn-light btn-outline-primary border-1 rounded">No</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="border-bottom p-2">
+                                    <div class="d-flex align-items-center">
+                                        <img src="https://codescandy.com/geeks/assets/images/avatar-3.jpg"
+                                            class="dropdown-img rounded-circle avatar-xs" alt="">
+                                        <h5 class="m-0 me-2 ms-2">Arthur Williamson </h5>
+                                        <p class="m-0"> 3 Days ago</p>
+                                    </div>
+                                    <div class="ms-5 d-block">
+                                        <i class="fas fa-star text-warning"></i>
+                                        <i class="fas fa-star text-warning"></i>
+                                        <i class="fas fa-star text-warning"></i>
+                                        <i class="fas fa-star text-warning"></i>
+                                        <i class="fas fa-star text-warning"></i>
+                                    </div>
+                                    <div class=" me-5 ms-5">
+                                        <p>Its pretty good.Just a reminder that there are also students with Windows,
+                                            meaning Figma its a bit different of yours. Thank you!</p>
+                                        <div class="d-flex align-items-center">
+                                            <p>Was this review helpful?</p>
+                                            <button class="btn-primary border-0 rounded me-3 ms-3">Yes</button>
+                                            <button class=" btn-light btn-outline-primary border-1 rounded">No</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="border-bottom p-2">
+                                    <div class="d-flex align-items-center">
+                                        <img src="https://codescandy.com/geeks/assets/images/avatar-4.jpg"
+                                            class="dropdown-img rounded-circle avatar-xs" alt="">
+                                        <h5 class="m-0 me-2 ms-2">Claire Jones </h5>
+                                        <p class="m-0"> 4 Days ago</p>
+                                    </div>
+                                    <div class="ms-5 d-block">
+                                        <i class="fas fa-star text-warning"></i>
+                                        <i class="fas fa-star text-warning"></i>
+                                        <i class="fas fa-star text-warning"></i>
+                                        <i class="fas fa-star text-warning"></i>
+                                        <i class="fas fa-star text-warning"></i>
+                                    </div>
+                                    <div class=" me-5 ms-5">
+                                        <p>Great course for learning Figma, the only bad detail would be that some icons
+                                            are
+                                            not included in the assets. But 90% of the icons needed are included, and
+                                            the
+                                            voice of the instructor was very clear and easy to understood.</p>
+                                        <div class="d-flex align-items-center">
+                                            <p>Was this review helpful?</p>
+                                            <button class="btn-primary border-0 rounded me-3 ms-3">Yes</button>
+                                            <button class=" btn-light btn-outline-primary border-1 rounded">No</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="border-bottom p-2">
+                                    <div class="d-flex align-items-center">
+                                        <img src="https://codescandy.com/geeks/assets/images/avatar-5.jpg"
+                                            class="dropdown-img rounded-circle avatar-xs" alt="">
+                                        <h5 class="m-0 me-2 ms-2">Bessie Pena </h5>
+                                        <p class="m-0"> 5 Days ago</p>
+                                    </div>
+                                    <div class="ms-5 d-block">
+                                        <i class="fas fa-star text-warning"></i>
+                                        <i class="fas fa-star text-warning"></i>
+                                        <i class="fas fa-star text-warning"></i>
+                                        <i class="fas fa-star text-warning"></i>
+                                        <i class="fas fa-star text-warning"></i>
+                                    </div>
+                                    <div class=" me-5 ms-5">
+                                        <p>I have really enjoyed this class and learned a lot, found it very inspiring
+                                            and
+                                            helpful, thank you! </p>
+                                        <div class="d-flex align-items-center">
+                                            <p>Was this review helpful?</p>
+                                            <button class="btn-primary border-0 rounded me-3 ms-3">Yes</button>
+                                            <button class=" btn-light btn-outline-primary border-1 rounded">No</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade " id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                            <div>
+                                <h2 class="mt-3 mb-3 fs-3">Course Descriptions</h2>
+                                <p>If you’re learning to program for the first time, or if you’re coming from a
+                                    different
+                                    language, this course, JavaScript: Getting Started, will give you the basics for
+                                    coding
+                                    in JavaScript. First, you'll discover the types of applications that can be built
+                                    with
+                                    JavaScript, and the platforms they’ll run on.</p>
+                                <p>Next, you’ll explore the basics of the language, giving plenty of examples. Lastly,
+                                    you’ll put your JavaScript knowledge to work and modify a modern, responsive web
+                                    page.
+                                    When you’re finished with this course, you’ll have the skills and knowledge in
+                                    JavaScript to create simple programs, create simple web applications, and modify web
+                                    pages.</p>
+                            </div>
+                            <h5>What you’ll learn</h5>
+                            <div class="d-flex flex-wrap">
+                                <div class="d-flex w-50">
+                                    <i class="far fa-check-circle text-success mt-1"></i>
+                                    <p class="">Recognize the importance of understanding your objectives when
+                                        addressing an
+                                        audience.</p>
+                                </div>
+                                <div class="d-flex w-50">
+                                    <i class="far fa-check-circle text-success mt-1"></i>
+                                    <p class="">Examine ways to connect with your audience by personalizing your
+                                        content.
+                                    </p>
+                                </div>
+                                <div class="d-flex w-50">
+                                    <i class="far fa-check-circle text-success mt-1"></i>
+                                    <p class="">Identify the fundaments of composing a successful close.</p>
+                                </div>
+                                <div class="d-flex w-50">
+                                    <i class="far fa-check-circle text-success mt-1"></i>
+                                    <p class="">Break down the best ways to exude executive presence.</p>
+                                </div>
+                                <div class="d-flex w-50">
+                                    <i class="far fa-check-circle text-success mt-1"></i>
+                                    <p class="">Explore how to connect with your audience through crafting compelling
+                                        stories.</p>
+                                </div>
+                                <div class="d-flex w-50">
+                                    <i class="far fa-check-circle text-success mt-1"></i>
+                                    <p class="">Explore how to communicate the unknown in an impromptu communication.
+                                    </p>
+                                </div>
+                            </div>
+                            <p class="mt-5">Maecenas viverra condimentum nulla molestie condimentum. Nunc ex libero,
+                                feugiat
+                                quis lectus vel, ornare euismod ligula. Aenean sit amet arcu nulla.</p>
+                            <p class="mt-3 mb-5 ">Duis facilisis ex a urna blandit ultricies. Nullam sagittis ligula non
+                                eros semper, nec mattis odio ullamcorper. Phasellus feugiat sit amet leo eget
+                                consectetur.
+                            </p>
+                        </div>
+                        <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                            <div class="accordion accordion-flush" id="accordionFlushExample">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="flush-headingOne">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#flush-collapseOne"
+                                            aria-expanded="false" aria-controls="flush-collapseOne">
+                                            Introduction to JavaScript
+                                        </button>
+                                    </h2>
+                                    <div id="flush-collapseOne" class="accordion-collapse collapse"
+                                        aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                        <div class="accordion-body">
+                                            <div class="d-flex justify-content-between align-items-center mb-3">
+                                                <div>
+                                                    <i class="fas fa-play text-info alert-info p-3 rounded-pill"></i>
+                                                    Introduction
+                                                </div>
+                                                <div>
+                                                    1m 7s
+                                                </div>
+                                            </div>
+                                            <div class="d-flex justify-content-between align-items-center mb-3">
+                                                <div>
+                                                    <i class="fas fa-play text-info alert-info p-3 rounded-pill"></i>
+                                                    Installing Developing Software
+                                                </div>
+                                                <div>
+                                                    3m 11s
+                                                </div>
+                                            </div>
+                                            <div class="d-flex justify-content-between align-items-center mb-3">
+                                                <div>
+                                                    <i class="fas fa-play text-info alert-info p-3 rounded-pill"></i>
+                                                    Hello World Project from GitHub
+                                                </div>
+                                                <div>
+                                                    2m 33s
+                                                </div>
+                                            </div>
+                                            <div class="d-flex justify-content-between align-items-center mb-3">
+                                                <div>
+                                                    <i class="fas fa-play text-info alert-info p-3 rounded-pill"></i>
+                                                    Our Simple Website
+                                                </div>
+                                                <div>
+                                                    2m 15s
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="flush-headingTwo">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo"
+                                            aria-expanded="false" aria-controls="flush-collapseTwo">
+                                            JavaScript Beginning
+                                        </button>
+                                    </h2>
+                                    <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                                        aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlush">
+                                        <div class="accordion-body">
+                                            <div class="d-flex justify-content-between align-items-center mb-3">
+                                                <div>
+                                                    <i class="fas fa-play text-info alert-info p-3 rounded-pill"></i>
+                                                    Introduction
+                                                </div>
+                                                <div>
+                                                    1m 7s
+                                                </div>
+                                            </div>
+                                            <div class="d-flex justify-content-between align-items-center mb-3">
+                                                <div>
+                                                    <i class="fas fa-play text-info alert-info p-3 rounded-pill"></i>
+                                                    Adding JavaScript Code to a Web Page
+                                                </div>
+                                                <div>
+                                                    3m 11s
+                                                </div>
+                                            </div>
+                                            <div class="d-flex justify-content-between align-items-center mb-3">
+                                                <div>
+                                                    <i class="fas fa-play text-info alert-info p-3 rounded-pill"></i>
+                                                    Formatting Code
+                                                </div>
+                                                <div>
+                                                    2m 33s
+                                                </div>
+                                            </div>
+                                            <div class="d-flex justify-content-between align-items-center mb-3">
+                                                <div>
+                                                    <i class="fas fa-play text-info alert-info p-3 rounded-pill"></i>
+                                                    Detecting and Fixing Errors
+                                                </div>
+                                                <div>
+                                                    2m 15s
+                                                </div>
+                                            </div>
+                                            <div class="d-flex justify-content-between align-items-center mb-3">
+                                                <div>
+                                                    <i class="fas fa-play text-info alert-info p-3 rounded-pill"></i>
+                                                    Case Sensivitey
+                                                </div>
+                                                <div>
+                                                    2m 15s
+                                                </div>
+                                            </div>
+                                            <div class="d-flex justify-content-between align-items-center mb-3">
+                                                <div>
+                                                    <i class="fas fa-play text-info alert-info p-3 rounded-pill"></i>
+                                                    Commenting Code
+                                                </div>
+                                                <div>
+                                                    2m 15s
+                                                </div>
+                                            </div>
+                                            <div class="d-flex justify-content-between align-items-center mb-3">
+                                                <div>
+                                                    <i class="fas fa-play text-info alert-info p-3 rounded-pill"></i>
+                                                    Summary
+                                                </div>
+                                                <div>
+                                                    2m 15s
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-heading3">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#flush-collapse3" aria-expanded="false"
+                                        aria-controls="flush-collapse3">
+                                        Variables and Constants
+                                    </button>
+                                </h2>
+                                <div id="flush-collapse3" class="accordion-collapse collapse"
+                                    aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">
+                                        <div class="d-flex justify-content-between align-items-center mb-3">
+                                            <div>
+                                                <i class="fas fa-lock alert-secondary p-3 rounded-pill"></i>
+                                                Introduction
+                                            </div>
+                                            <div>
+                                                1m 7s
+                                            </div>
+                                        </div>
+                                        <div class="d-flex justify-content-between align-items-center mb-3">
+                                            <div>
+                                                <i class="fas fa-lock alert-secondary p-3 rounded-pill"></i>
+                                                What Is a Variable?
+                                            </div>
+                                            <div>
+                                                3m 11s
+                                            </div>
+                                        </div>
+                                        <div class="d-flex justify-content-between align-items-center mb-3">
+                                            <div>
+                                                <i class="fas fa-lock alert-secondary p-3 rounded-pill"></i>
+                                                Declaring Variables
+                                            </div>
+                                            <div>
+                                                2m 33s
+                                            </div>
+                                        </div>
+                                        <div class="d-flex justify-content-between align-items-center mb-3">
+                                            <div>
+                                                <i class="fas fa-lock alert-secondary p-3 rounded-pill"></i>
+                                                Using let to Declare Variables
+                                            </div>
+                                            <div>
+                                                2m 15s
+                                            </div>
+                                        </div>
+                                        <div class="d-flex justify-content-between align-items-center mb-3">
+                                            <div>
+                                                <i class="fas fa-lock alert-secondary p-3 rounded-pill"></i>
+                                                Naming Variables
+                                            </div>
+                                            <div>
+                                                2m 15s
+                                            </div>
+                                        </div>
+                                        <div class="d-flex justify-content-between align-items-center mb-3">
+                                            <div>
+                                                <i class="fas fa-lock alert-secondary p-3 rounded-pill"></i>
+                                                Common Errors Using Variables
+                                            </div>
+                                            <div>
+                                                2m 15s
+                                            </div>
+                                        </div>
+                                        <div class="d-flex justify-content-between align-items-center mb-3">
+                                            <div>
+                                                <i class="fas fa-lock alert-secondary p-3 rounded-pill"></i>
+                                                Changing Variable Values
+                                            </div>
+                                            <div>
+                                                2m 15s
+                                            </div>
+                                        </div>
+                                        <div class="d-flex justify-content-between align-items-center mb-3">
+                                            <div>
+                                                <i class="fas fa-lock alert-secondary p-3 rounded-pill"></i>
+                                                Constants
+                                            </div>
+                                            <div>
+                                                2m 15s
+                                            </div>
+                                        </div>
+                                        <div class="d-flex justify-content-between align-items-center mb-3">
+                                            <div>
+                                                <i class="fas fa-lock alert-secondary p-3 rounded-pill"></i>
+                                                The var Keyword
+                                            </div>
+                                            <div>
+                                                2m 15s
+                                            </div>
+                                        </div>
+                                        <div class="d-flex justify-content-between align-items-center mb-3">
+                                            <div>
+                                                <i class="fas fa-lock alert-secondary p-3 rounded-pill"></i>
+                                                Summary
+                                            </div>
+                                            <div>
+                                                2m 15s
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-heading4">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#flush-collapse4" aria-expanded="false"
+                                        aria-controls="flush-collapse4">
+                                        Types and Operators
+                                    </button>
+                                </h2>
+                                <div id="flush-collapse4" class="accordion-collapse collapse"
+                                    aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">
+                                        <div class="d-flex justify-content-between align-items-center mb-3">
+                                            <div>
+                                                <i class="fas fa-lock alert-secondary p-3 rounded-pill"></i>
+                                                Introduction
+                                            </div>
+                                            <div>
+                                                1m 7s
+                                            </div>
+                                        </div>
+                                        <div class="d-flex justify-content-between align-items-center mb-3">
+                                            <div>
+                                                <i class="fas fa-lock alert-secondary p-3 rounded-pill"></i>
+                                                What Is a Variable?
+                                            </div>
+                                            <div>
+                                                3m 11s
+                                            </div>
+                                        </div>
+                                        <div class="d-flex justify-content-between align-items-center mb-3">
+                                            <div>
+                                                <i class="fas fa-lock alert-secondary p-3 rounded-pill"></i>
+                                                Declaring Variables
+                                            </div>
+                                            <div>
+                                                2m 33s
+                                            </div>
+                                        </div>
+                                        <div class="d-flex justify-content-between align-items-center mb-3">
+                                            <div>
+                                                <i class="fas fa-lock alert-secondary p-3 rounded-pill"></i>
+                                                Using let to Declare Variables
+                                            </div>
+                                            <div>
+                                                2m 15s
+                                            </div>
+                                        </div>
+                                        <div class="d-flex justify-content-between align-items-center mb-3">
+                                            <div>
+                                                <i class="fas fa-lock alert-secondary p-3 rounded-pill"></i>
+                                                Naming Variables
+                                            </div>
+                                            <div>
+                                                2m 15s
+                                            </div>
+                                        </div>
+                                        <div class="d-flex justify-content-between align-items-center mb-3">
+                                            <div>
+                                                <i class="fas fa-lock alert-secondary p-3 rounded-pill"></i>
+                                                Common Errors Using Variables
+                                            </div>
+                                            <div>
+                                                2m 15s
+                                            </div>
+                                        </div>
+                                        <div class="d-flex justify-content-between align-items-center mb-3">
+                                            <div>
+                                                <i class="fas fa-lock alert-secondary p-3 rounded-pill"></i>
+                                                Changing Variable Values
+                                            </div>
+                                            <div>
+                                                2m 15s
+                                            </div>
+                                        </div>
+                                        <div class="d-flex justify-content-between align-items-center mb-3">
+                                            <div>
+                                                <i class="fas fa-lock alert-secondary p-3 rounded-pill"></i>
+                                                Constants
+                                            </div>
+                                            <div>
+                                                2m 15s
+                                            </div>
+                                        </div>
+                                        <div class="d-flex justify-content-between align-items-center mb-3">
+                                            <div>
+                                                <i class="fas fa-lock alert-secondary p-3 rounded-pill"></i>
+                                                The var Keyword
+                                            </div>
+                                            <div>
+                                                2m 15s
+                                            </div>
+                                        </div>
+                                        <div class="d-flex justify-content-between align-items-center mb-3">
+                                            <div>
+                                                <i class="fas fa-lock alert-secondary p-3 rounded-pill"></i>
+                                                Summary
+                                            </div>
+                                            <div>
+                                                2m 15s
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="flush-heading6">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#flush-collapse6"
+                                                aria-expanded="false" aria-controls="flush-collapse6">
+                                                Program Flow
+                                            </button>
+                                        </h2>
+                                        <div id="flush-collapse6" class="accordion-collapse collapse"
+                                            aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                            <div class="accordion-body">
+                                                <div class="d-flex justify-content-between align-items-center mb-3">
+                                                    <div>
+                                                        <i class="fas fa-lock alert-secondary p-3 rounded-pill"></i>
+                                                        Introduction
+                                                    </div>
+                                                    <div>
+                                                        1m 7s
+                                                    </div>
+                                                </div>
+                                                <div class="d-flex justify-content-between align-items-center mb-3">
+                                                    <div>
+                                                        <i class="fas fa-lock alert-secondary p-3 rounded-pill"></i>
+                                                        What Is a Variable?
+                                                    </div>
+                                                    <div>
+                                                        3m 11s
+                                                    </div>
+                                                </div>
+                                                <div class="d-flex justify-content-between align-items-center mb-3">
+                                                    <div>
+                                                        <i class="fas fa-lock alert-secondary p-3 rounded-pill"></i>
+                                                        Declaring Variables
+                                                    </div>
+                                                    <div>
+                                                        2m 33s
+                                                    </div>
+                                                </div>
+                                                <div class="d-flex justify-content-between align-items-center mb-3">
+                                                    <div>
+                                                        <i class="fas fa-lock alert-secondary p-3 rounded-pill"></i>
+                                                        Using let to Declare Variables
+                                                    </div>
+                                                    <div>
+                                                        2m 15s
+                                                    </div>
+                                                </div>
+                                                <div class="d-flex justify-content-between align-items-center mb-3">
+                                                    <div>
+                                                        <i class="fas fa-lock alert-secondary p-3 rounded-pill"></i>
+                                                        Naming Variables
+                                                    </div>
+                                                    <div>
+                                                        2m 15s
+                                                    </div>
+                                                </div>
+                                                <div class="d-flex justify-content-between align-items-center mb-3">
+                                                    <div>
+                                                        <i class="fas fa-lock alert-secondary p-3 rounded-pill"></i>
+                                                        Common Errors Using Variables
+                                                    </div>
+                                                    <div>
+                                                        2m 15s
+                                                    </div>
+                                                </div>
+                                                <div class="d-flex justify-content-between align-items-center mb-3">
+                                                    <div>
+                                                        <i class="fas fa-lock alert-secondary p-3 rounded-pill"></i>
+                                                        Changing Variable Values
+                                                    </div>
+                                                    <div>
+                                                        2m 15s
+                                                    </div>
+                                                </div>
+                                                <div class="d-flex justify-content-between align-items-center mb-3">
+                                                    <div>
+                                                        <i class="fas fa-lock alert-secondary p-3 rounded-pill"></i>
+                                                        Constants
+                                                    </div>
+                                                    <div>
+                                                        2m 15s
+                                                    </div>
+                                                </div>
+                                                <div class="d-flex justify-content-between align-items-center mb-3">
+                                                    <div>
+                                                        <i class="fas fa-lock alert-secondary p-3 rounded-pill"></i>
+                                                        The var Keyword
+                                                    </div>
+                                                    <div>
+                                                        2m 15s
+                                                    </div>
+                                                </div>
+                                                <div class="d-flex justify-content-between align-items-center mb-3">
+                                                    <div>
+                                                        <i class="fas fa-lock alert-secondary p-3 rounded-pill"></i>
+                                                        Summary
+                                                    </div>
+                                                    <div>
+                                                        2m 15s
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="flush-heading7">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#flush-collapse7"
+                                            aria-expanded="false" aria-controls="flush-collapse7">
+                                            Array
+                                        </button>
+                                    </h2>
+                                    <div id="flush-collapse7" class="accordion-collapse collapse"
+                                        aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                        <div class="accordion-body">
+                                            <div class="d-flex justify-content-between align-items-center mb-3">
+                                                <div>
+                                                    <i class="fas fa-lock alert-secondary p-3 rounded-pill"></i>
+                                                    Introduction
+                                                </div>
+                                                <div>
+                                                    1m 7s
+                                                </div>
+                                            </div>
+                                            <div class="d-flex justify-content-between align-items-center mb-3">
+                                                <div>
+                                                    <i class="fas fa-lock alert-secondary p-3 rounded-pill"></i>
+                                                    What Is a Variable?
+                                                </div>
+                                                <div>
+                                                    3m 11s
+                                                </div>
+                                            </div>
+                                            <div class="d-flex justify-content-between align-items-center mb-3">
+                                                <div>
+                                                    <i class="fas fa-lock alert-secondary p-3 rounded-pill"></i>
+                                                    Declaring Variables
+                                                </div>
+                                                <div>
+                                                    2m 33s
+                                                </div>
+                                            </div>
+                                            <div class="d-flex justify-content-between align-items-center mb-3">
+                                                <div>
+                                                    <i class="fas fa-lock alert-secondary p-3 rounded-pill"></i>
+                                                    Using let to Declare Variables
+                                                </div>
+                                                <div>
+                                                    2m 15s
+                                                </div>
+                                            </div>
+                                            <div class="d-flex justify-content-between align-items-center mb-3">
+                                                <div>
+                                                    <i class="fas fa-lock alert-secondary p-3 rounded-pill"></i>
+                                                    Naming Variables
+                                                </div>
+                                                <div>
+                                                    2m 15s
+                                                </div>
+                                            </div>
+                                            <div class="d-flex justify-content-between align-items-center mb-3">
+                                                <div>
+                                                    <i class="fas fa-lock alert-secondary p-3 rounded-pill"></i>
+                                                    Common Errors Using Variables
+                                                </div>
+                                                <div>
+                                                    2m 15s
+                                                </div>
+                                            </div>
+                                            <div class="d-flex justify-content-between align-items-center mb-3">
+                                                <div>
+                                                    <i class="fas fa-lock alert-secondary p-3 rounded-pill"></i>
+                                                    Changing Variable Values
+                                                </div>
+                                                <div>
+                                                    2m 15s
+                                                </div>
+                                            </div>
+                                            <div class="d-flex justify-content-between align-items-center mb-3">
+                                                <div>
+                                                    <i class="fas fa-lock alert-secondary p-3 rounded-pill"></i>
+                                                    Constants
+                                                </div>
+                                                <div>
+                                                    2m 15s
+                                                </div>
+                                            </div>
+                                            <div class="d-flex justify-content-between align-items-center mb-3">
+                                                <div>
+                                                    <i class="fas fa-lock alert-secondary p-3 rounded-pill"></i>
+                                                    The var Keyword
+                                                </div>
+                                                <div>
+                                                    2m 15s
+                                                </div>
+                                            </div>
+                                            <div class="d-flex justify-content-between align-items-center mb-3">
+                                                <div>
+                                                    <i class="fas fa-lock alert-secondary p-3 rounded-pill"></i>
+                                                    Summary
+                                                </div>
+                                                <div>
+                                                    2m 15s
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="flush-heading8">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#flush-collapse8"
+                                            aria-expanded="false" aria-controls="flush-collapse8">
+                                            Functions
+                                        </button>
+                                    </h2>
+                                    <div id="flush-collapse8" class="accordion-collapse collapse"
+                                        aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                        <div class="accordion-body">
+                                            <div class="d-flex justify-content-between align-items-center mb-3">
+                                                <div>
+                                                    <i class="fas fa-lock alert-secondary p-3 rounded-pill"></i>
+                                                    Introduction
+                                                </div>
+                                                <div>
+                                                    1m 7s
+                                                </div>
+                                            </div>
+                                            <div class="d-flex justify-content-between align-items-center mb-3">
+                                                <div>
+                                                    <i class="fas fa-lock alert-secondary p-3 rounded-pill"></i>
+                                                    What Is a Variable?
+                                                </div>
+                                                <div>
+                                                    3m 11s
+                                                </div>
+                                            </div>
+                                            <div class="d-flex justify-content-between align-items-center mb-3">
+                                                <div>
+                                                    <i class="fas fa-lock alert-secondary p-3 rounded-pill"></i>
+                                                    Declaring Variables
+                                                </div>
+                                                <div>
+                                                    2m 33s
+                                                </div>
+                                            </div>
+                                            <div class="d-flex justify-content-between align-items-center mb-3">
+                                                <div>
+                                                    <i class="fas fa-lock alert-secondary p-3 rounded-pill"></i>
+                                                    Using let to Declare Variables
+                                                </div>
+                                                <div>
+                                                    2m 15s
+                                                </div>
+                                            </div>
+                                            <div class="d-flex justify-content-between align-items-center mb-3">
+                                                <div>
+                                                    <i class="fas fa-lock alert-secondary p-3 rounded-pill"></i>
+                                                    Naming Variables
+                                                </div>
+                                                <div>
+                                                    2m 15s
+                                                </div>
+                                            </div>
+                                            <div class="d-flex justify-content-between align-items-center mb-3">
+                                                <div>
+                                                    <i class="fas fa-lock alert-secondary p-3 rounded-pill"></i>
+                                                    Common Errors Using Variables
+                                                </div>
+                                                <div>
+                                                    2m 15s
+                                                </div>
+                                            </div>
+                                            <div class="d-flex justify-content-between align-items-center mb-3">
+                                                <div>
+                                                    <i class="fas fa-lock alert-secondary p-3 rounded-pill"></i>
+                                                    Changing Variable Values
+                                                </div>
+                                                <div>
+                                                    2m 15s
+                                                </div>
+                                            </div>
+                                            <div class="d-flex justify-content-between align-items-center mb-3">
+                                                <div>
+                                                    <i class="fas fa-lock alert-secondary p-3 rounded-pill"></i>
+                                                    Constants
+                                                </div>
+                                                <div>
+                                                    2m 15s
+                                                </div>
+                                            </div>
+                                            <div class="d-flex justify-content-between align-items-center mb-3">
+                                                <div>
+                                                    <i class="fas fa-lock alert-secondary p-3 rounded-pill"></i>
+                                                    The var Keyword
+                                                </div>
+                                                <div>
+                                                    2m 15s
+                                                </div>
+                                            </div>
+                                            <div class="d-flex justify-content-between align-items-center mb-3">
+                                                <div>
+                                                    <i class="fas fa-lock alert-secondary p-3 rounded-pill"></i>
+                                                    Summary
+                                                </div>
+                                                <div>
+                                                    2m 15s
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <aside class="sidebar col-3 col-xl-3 col-lg-10 col-md-12 col-sm-12 d-flex justify-content-center">
+            <div class="container">
+                <nav class="sidebar-inner ms-2">
+                    <div class="sidebar-card col-12 shadow mb-5 card  rounded p-2">
+                        <img class=" position-relative"
+                            src="https://codescandy.com/geeks/assets/images/course-javascript.jpg" alt="">
+                        <a class="position-absolute bottom-50 start-50 me-5 mb-5" href="#">
+                            <i class="fas fa-play bg-primary rounded-circle text-white p-3"></i>
+                        </a>
+                        <div class="card-body height-auto p-2">
+                            <button class="btn btn-primary text-white mb-2 w-100">Start Free Month</button>
+                            <button class="btn btn-white btn-outline-primary w-100">Get Full Access</button>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </aside>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js"
+        integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js"
+        integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

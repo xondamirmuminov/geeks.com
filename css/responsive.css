@@ -1,0 +1,75 @@
+@media screen and (max-width:1125px) {
+    .home-img {
+        display: none;
+    }
+
+    .home {
+        text-align: center;
+        height: 500px;
+    }
+
+    .about {
+        text-align: center;
+        height: auto;
+    }
+
+    .card-inner {
+        text-align: center;
+    }
+
+    .contact {
+          position: relative;
+          top: 0;
+    }
+
+    .sidebar-inner {
+        margin-left: 0;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+    }
+}    
+
+@media screen and (max-width:610px) {
+    .home {
+        height: 540p;
+    }
+
+    .contact {
+        position: relative;
+        top: 0;
+  }
+
+  .nav-link {
+      margin: 0;
+  }
+}
+
+@media screen and (max-width:512px) {
+    footer {
+        display: none;
+    }
+
+    .home {
+        height: 580px;
+    }
+    .contact {
+        position: relative;
+        top: 0;
+  }
+}
+
+@media screen and (max-width:350px) {
+    .home-title {
+        font-size: 40px;
+    }
+
+    .home-text {
+        font-size: 10px!;
+    }
+
+    .contact {
+        position: relative;
+        top: 0;
+  }
+}

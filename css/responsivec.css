@@ -1,0 +1,5 @@
+@media screen and(max-width: 1125px) {
+    .about__inner {
+        min-width: 900px !important;
+    }
+}

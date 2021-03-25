@@ -1,0 +1,147 @@
+.nav-link {
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.search {
+    width: 100%;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding: 7px;
+}
+
+.header-btn {
+    border-right: 0;
+    border-bottom: 1px solid gray;
+    border-top: 1px solid gray;
+    border-left: 1px solid gray;
+    padding: 10px;
+    text-align: center;
+}
+
+.dropdown-img {
+    height: 50px;
+}
+
+.dropdown-list {
+    max-width: 400px;
+}
+
+.home {
+    background-color: #754ffe;
+    height: 458px;
+}
+
+.page__home {
+    height: 500px;
+    position: relative;
+}
+
+.home-btn {
+    background-color: #19cb98;
+}
+
+.home-title {
+    font-size: 50px;
+}
+
+.home-text {
+    color: hsla(0,0%,100%,.5);
+    max-width: 700px;
+}
+
+.about {
+    height: 120px;
+}
+
+.about-btn {
+    background-color: #ffeeda;
+    color: #c28135;
+}
+
+.card {
+    height: 400px;
+    max-width: 260px;
+    border: 0;
+}
+
+li {
+    list-style: none;
+}
+
+.contact {
+    background-color: white;
+    border-radius: 4px;
+    padding-bottom: 30px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.nav-link {
+    padding: 20px;
+}
+
+.nav-link.active{
+    border: 0 !important;
+    border-bottom: 1px solid blue !important;
+    color: blue !important;
+}
+
+.statistic {
+    width: 350px;
+    height: 7px;
+}
+
+.statistic-item {
+    width: 90%;
+    height: 100%;
+}
+
+.statistic-item--w80 {
+    width: 80%;
+}
+
+.statistic-item--w70 {
+    width: 70%;
+}
+
+.statistic-item--w60 {
+    width: 60%;
+}
+
+.statistic-item--w50 {
+    width: 50%;
+}
+
+.contact-title {
+    font-size: 60px;
+}
+
+
+.sidebar {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sidebar-card {
+    height: 360px;
+    width: 100%;
+    max-width: 360px;
+}
+
+.modal-link ul {
+    display: none;
+}
+
+.modal-link:hover ul {
+    display: block;
+    position: absolute;
+    left: 170px;
+    top: -10px;
+    padding: 10px;
+    width: 180px;
+}
